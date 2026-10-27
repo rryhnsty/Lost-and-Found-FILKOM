@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './ui/button';
 
 export default function Navbar() {
   return (
@@ -18,9 +19,11 @@ export default function Navbar() {
         </nav>
 
         <div>
-          <button className="flex item-center justify-center px-6 py-2.5 bg-black text-white rounded-full text-sm font-medium font-sans hover:bg-gray-800 transition-all shadow-sm">
+          <Button
+            className = "bg-blue-600 text-white font-sans hover:bg-blue-500"
+          >
             Login
-          </button>
+          </Button>
         </div>
 
       </div>
